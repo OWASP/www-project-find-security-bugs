@@ -3,18 +3,105 @@
 layout: col-sidebar
 title: OWASP find security bugs
 tags: example-tag
-level: 4
+level: 0
 type: code
 
+auto-migrated: 1
 ---
 
-This is an example of a Project or Chapter Page.  Please change these items to indicate the actual information you wish to present.  In addition to this information, the 'front-matter' above this text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+This is an example of a Project or Chapter Page.
+<div style="width:100%;height:160px;border:0,margin:0;overflow: hidden;">
 
-layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+![OWASP_Project_Header.jpg](OWASP_Project_Header.jpg
+"OWASP_Project_Header.jpg")
 
-title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+</div>
 
-tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+<table>
+<tbody>
+<tr class="odd">
+<td><h2 id="description">Description</h2>
+<p>Find Security Bugs is a SpotBugs plugin for security audits of Java web applications and Android applications. It can detect 128 different vulnerability types including Command Injection, XPath Injection, SQL/HQL Injection, XXE and Cryptography weaknesses. SpotBugs is a static analysis tool that targets Java but also works with Groovy, Scala and Kotlin projects.</p>
+<p>Find Security Bugs is a SpotBugs plugin for security audits of Java web applications and Android applications. It can detect 128 different vulnerability types including Command Injection, XPath Injection, SQL/HQL Injection, XXE and Cryptography weaknesses. SpotBugs is a static analysis tool that targets Java but also works with Groovy, Scala and Kotlin projects.</p>
+<h2 id="licensing">Licensing</h2>
+<h2 id="licensing">Licensing</h2>
+<p>This software is released under LGPL.</p>
+<p>This software is released under LGPL.</p>
+<h2 id="roadmap">Roadmap</h2>
+<h2 id="roadmap">Roadmap</h2>
+<p>Theses are the current priorities:</p>
+<p>Theses are the current priorities:</p>
+<ul>
+<ul>
+<li>Release a new version every few months.</li>
+<li>Release a new version every few months.</li>
+<li>Improve the quality of the static analysis detectors</li>
+<li>Improve the quality of the static analysis detectors</li>
+<li>Continue working on finding new vulnerabilities ideas and implementing detectors if there is an opportunity.</li>
+<li>Continue working on finding new vulnerabilities ideas and implementing detectors if there is an opportunity.</li>
+<li>Improving the documentation for new contributors.</li>
+<li>Improving the documentation for new contributors.</li>
+</ul>
+</ul>
+<h2 id="getting_involved">Getting Involved</h2>
+<h2 id="getting_involved">Getting Involved</h2>
+<p>Involvement in the development and promotion of <strong>Find Security Bugs</strong> is actively encouraged!</p>
+<p>Involvement in the development and promotion of <strong>Find Security Bugs</strong> is actively encouraged!</p>
+<p>You can contribute by :</p>
+<p>You can contribute by :</p>
+<ul>
+<ul>
+<li><strong>Suggesting idea</strong> for new detectors that are not already cover.</li>
+<li><strong>Suggesting idea</strong> for new detectors that are not already cover.</li>
+<li><strong>Coding new detectors or modifying exist ones</strong>. See <a href="https://github.com/find-sec-bugs/find-sec-bugs/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22">Good first issue</a> on Github to get started</li>
+<li><strong>Coding new detectors or modifying exist ones</strong>. See <a href="https://github.com/find-sec-bugs/find-sec-bugs/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22">Good first issue</a> on Github to get started</li>
+<li><strong>Reviewing the descriptions</strong> of the <a href="https://find-sec-bugs.github.io/bugs.htm">different vulnerabilities</a>, <a href="https://find-sec-bugs.github.io">the website</a> or this page.</li>
+<li><strong>Reviewing the descriptions</strong> of the <a href="https://find-sec-bugs.github.io/bugs.htm">different vulnerabilities</a>, <a href="https://find-sec-bugs.github.io">the website</a> or this page.</li>
+</ul>
+</ul>
+<h2 id="project_sponsors">Project Sponsors</h2>
+<h2 id="project_sponsors">Project Sponsors</h2>
+<p>The project's development is supported by <a href="https://www.gosecure.net/">GoSecure</a> since 2016.</p></td>
+<p>The project's development is supported by <a href="https://www.gosecure.net/">GoSecure</a> since 2016.</p></td>
+<ul>
+<li><a href="https://find-sec-bugs.github.io/">Website</a></li>
+<li><a href="https://github.com/find-sec-bugs/find-sec-bugs/">GitHub page</a></li>
+<li><a href="https://github.com/find-sec-bugs/find-sec-bugs/releases/">Release notes</a></li>
+</ul>
+<h2 id="project_leader">Project Leader</h2>
+<p><a href="https://www.owasp.org/index.php/User:H3xstream">Philippe Arteau</a></p>
+<h2 id="related_projects">Related Projects</h2>
+<ul>
+<li><a href="https://github.com/spotbugs/spotbugs">SpotBugs</a></li>
+</ul>
+<h2 id="classifications">Classifications</h2>
+<table>
+<tbody>
+<tr class="odd">
+<img src="Project_Type_Files_CODE.jpg" title="Project_Type_Files_CODE.jpg" alt="Project_Type_Files_CODE.jpg" /><figcaption>Project_Type_Files_CODE.jpg</figcaption>
+</figure></td>
+</tr>
+<tr class="even">
+<img src="Owasp-incubator-trans-85.png" title="Owasp-incubator-trans-85.png" alt="Owasp-incubator-trans-85.png" /><figcaption>Owasp-incubator-trans-85.png</figcaption>
+</figure></td>
+</tr>
+<tr class="odd">
+<img src="Owasp-defenders-small.png" title="Owasp-defenders-small.png" alt="Owasp-defenders-small.png" /><figcaption>Owasp-defenders-small.png</figcaption>
+</figure></td>
+</tr>
+<tr class="even">
+<img src="LGPLv3_Logo.png" title="LGPLv3_Logo.png" alt="LGPLv3_Logo.png" width="190" /><figcaption>LGPLv3_Logo.png</figcaption>
+</figure></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
 
-level: For projects, this is your project level (2 - Incubator, 3 - Lab, 4 - Flagship)
+__NOTOC__ <headertabs />
 
+[Category:OWASP Project](Category:OWASP_Project "wikilink")
+[Category:OWASP_Builders](Category:OWASP_Builders "wikilink")
+[Category:OWASP_Defenders](Category:OWASP_Defenders "wikilink")
+[Category:OWASP_Code](Category:OWASP_Code "wikilink")
