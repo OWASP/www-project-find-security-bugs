@@ -1,3 +1,3 @@
 ### Leaders
 
-* [Philippe Arteau](mailto://)
+* [Philippe Arteau](mailto:)
