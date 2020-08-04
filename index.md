@@ -1,60 +1,41 @@
 ---
-
 layout: col-sidebar
 title: OWASP Find Security Bugs
 tags: example-tag
-level: 0
-type: code
-
-auto-migrated: 1
-auto-migrated: 1
-
-auto-migrated: 1
-
-auto-migrated: 1
-
-auto-migrated: 1
-
+type: tool
+pitch: Find Security Bugs is a SpotBugs plugin for security audits of Java web applications and Android applications.
 ---
 
+![Find Security Bugs logo](./assets/images/fsb.png)
 
-<!-- Standard Chapter Page Template
-This is an example of a Project or Chapter page.
-Please change these items to indicate the actual information you wish to present. In addition to this information, the 'front-matter' above the text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+Find Security Bugs is a SpotBugs plugin for security audits of Java web applications and Android applications. It can detect 128 different vulnerability types including Command Injection, XPath Injection, SQL/HQL Injection, XXE and Cryptography weaknesses. SpotBugs is a static analysis tool that targets Java but also works with Groovy, Scala and Kotlin projects.
 
-{front matter for this file}
 
-```
-- layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
-- title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
-- tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
-- region: This is the region you are in according to our data
-```
+## Licensing
 
-{copy for this file (index.md)}
-Replace the text above the commented area with your information in the format below:
-```
-## Welcome
-Include some information here about your chapter
+This software is released under LGPL.
 
-## Participation
-The Open Web Application Security Project (OWASP) is a nonprofit foundation that works to improve the security of software. All of our projects ,tools, documents, forums, and chapters are free and open to anyone interested in improving application security. 
+## Roadmap
 
-Chapters are led by local leaders in accordance with the [Chapter Leader Handbook](/www-policy/rules-of-procedure/chapter-handbook). Financial contributions should only be made online using the authorized online donation button. To be a SPEAKER at ANY OWASP Chapter in the world simply review the [speaker agreement](/www-policy/speaker-agreement) and then contact the local chapter leader with details of what OWASP Project, independent research, or related software security topic you would like to present.
+Theses are the current priorities:
+ - Release a new version every few months.
+ - Improve the quality of the static analysis detectors
+ - Continue working on finding new vulnerabilities ideas and implementing detectors if there is an opportunity.
+ - Improving the documentation for new contributors.
 
-Everyone is welcome and encouraged to participate in our [Projects](/projects), [Local Chapters](/chapters), [Events](/events), [Online Groups](https://groups.google.com/a/owasp.com/){:target='_blank'}, and [Community Slack Channel](https://owasp.slack.com/){:target='_blank'}. We especially encourage diversity in all our initiatives. OWASP is a fantastic place to learn about application security, to network, and even to build your reputation as an expert. We also encourage you to be [become a member](/membership) or consider a [donation](/donate) to support our ongoing work.
+ The complete roadmap is kept up to date on GitHub in [the milestones section](https://github.com/find-sec-bugs/find-sec-bugs/milestones).
 
-## Local News
-- Meeting Location
-- Everyone is welcome to join us at our chapter meetings.
+## Getting Involved
 
-```
-{info.md}
+Involvement in the development and promotion of **Find Security Bugs** is actively encouraged!
 
-This separate file is where you should place links to your Google Group and Meetup page. It will be automatically rendered in the column sidebar.
+You can contribute by :
 
-{leaders.md}
+ - **Suggesting ideas** for new detectors that are not already covered.
+ - Coding **new detectors** or modifying exist ones. See [Good first issue](https://github.com/find-sec-bugs/find-sec-bugs/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) on Github to get started
+ - **Reviewing the descriptions** of the [different vulnerabilities](https://find-sec-bugs.github.io/bugs.htm), [the website](https://find-sec-bugs.github.io) or this page.
 
-Another separate file that should simply include each leaders name with mailto link as a list. It will also be automatically rendered in the column sidebar.
+## Project Sponsors
 
--->
+The project's development is supported by [GoSecure](https://www.gosecure.net/) since 2016.
+
