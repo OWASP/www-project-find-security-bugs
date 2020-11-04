@@ -3,7 +3,7 @@ layout: col-sidebar
 title: OWASP Find Security Bugs
 tags: example-tag
 type: tool
-level: 2
+level: 3
 pitch: Find Security Bugs is a SpotBugs plugin for security audits of Java web applications and Android applications.
 ---
 
