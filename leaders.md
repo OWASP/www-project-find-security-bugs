@@ -1,3 +1,3 @@
 ### Leaders
 
-* [Philippe Arteau](https://twitter.com/h3xstream)
+* [Philippe Arteau](mailto:philippe.arteau@gmail.com)
