@@ -1,0 +1,39 @@
+audience:
+  - builder
+leaders:
+  - name: Philippe Arteau
+    email: philippe.arteau@gmail.com
+    github: h3xstream
+level: 3
+license:
+  - LGPL-3.0
+name: OWASP Find Security Bugs
+pitch: Find Security Bugs is a SpotBugs plugin for security audits of Java web applications and Android applications.
+repositories:
+  - name: www-project-find-security-bugs
+    url: https://github.com/OWASP/www-project-find-security-bugs
+    description: OWASP Foundation Web Repository
+  - name: find-sec-bugs
+    url: https://github.com/find-sec-bugs/find-sec-bugs
+    description: The SpotBugs plugin for security audits of Java web applications and Android applications. (Also work with Kotlin, Groovy and Scala projects)
+  - name: find-sec-bugs-demos
+    url: https://github.com/find-sec-bugs/find-sec-bugs-demos
+    description: Repository to showcase various configuration recipes with various technologies
+  - name: find-sec-bugs.github.io
+    url: https://github.com/find-sec-bugs/find-sec-bugs.github.io
+    description: Static website for the Find Security Bugs project
+  - name: juliet-test-suite
+    url: https://github.com/find-sec-bugs/juliet-test-suite
+    description: ':microscope: A collection of test cases in the Java language. It contains examples for 112 different CWEs.'
+  - name: signature-helper
+    url: https://github.com/find-sec-bugs/signature-helper
+    description: Tool to help contributors to generated signature for new API
+  - name: WebGoat
+    url: https://github.com/find-sec-bugs/WebGoat
+    description: 'Use for demonstration purpose :star2: WebGoat 8.0'
+tags:
+  - example-tag
+  - custom-tag-1
+  - custom-tag-2
+type: tool
+website: https://owasp.org/www-project-find-security-bugs
